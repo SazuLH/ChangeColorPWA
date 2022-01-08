@@ -1,0 +1,25 @@
+* {
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F7F7F7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>.gradio {
+    display: flex;
+    flex-direction: column;
+}
+
+body>.gradio>label {
+    margin-bottom: 2rem;
+    font-size: 24px;
+    font-family: 'Georgia', serif;
+}
